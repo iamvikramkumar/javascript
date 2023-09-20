@@ -33,7 +33,33 @@ const myFunction = function(){
    console.log("Namaste Bharat");
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof myFunction)
-console.log(typeof heros)
+// console.log(typeof bigNumber)
+// console.log(typeof outsideTemp)
+// console.log(typeof myFunction)
+// console.log(typeof heros)
+
+
+//Stack (Primitive) => It gives us copy of value , Heap(Non-Primitive) => It takes reference of origninal value whatever we change in value that value also cahnges with original one.
+
+
+let myYoutubename = "vikram.com"
+let anothername = myYoutubename
+ anothername = "chaiaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vikram@google.com"
+
+userTwo.upi = "vikram@paytm"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userOne.upi);
+console.log(userTwo.upi);
