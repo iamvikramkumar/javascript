@@ -1,2 +1,2 @@
 # Javascript
-A code repo of javascript series 
+A code repo of javascript series from code and chai
