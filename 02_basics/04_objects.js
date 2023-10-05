@@ -50,10 +50,46 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//Object destructure
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "hitesh" 
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+// {} curly braces used for DESTRUCTURE the objects and array 
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "RELIANCE JIO")
+
+//API CONCEPT
+// APNA KAAM DUSRE KE SAR PAR DALNA USKO HI API KEHTE HAI
+//JSON is used for api call
+// {
+//     "name": "vikram",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// Api sometime gives array also so its not required api gives always object
+//It's an array
+[
+    {},
+    {},
+    {}
+]
