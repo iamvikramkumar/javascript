@@ -1,0 +1,14 @@
+// var c =300 //global scope
+let a = 300
+if(true) {  // block scope
+    let a = 10
+    const b = 20
+    console.log("INNER: ", a);
+}
+
+// jab browser ke under console me jakar scope dekhte hai wo alag hai or jab hum code environment me node ke madad se example ko run karte hai to aapka global scope alag hai
+
+
+console.log(a);
+// console.log(b);
+// console.log(c);
