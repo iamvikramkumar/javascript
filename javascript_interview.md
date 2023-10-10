@@ -14,10 +14,9 @@ i) Global Execution Context
 ii) Function Execution Context
 iii) Eval Execution Context
 
-===
 { } ==> Memory Creation Phase / Creation Phase
     ==> Execution Phase --> + - / * 
-===
+
 
 <pre>
 let val1 = 10
