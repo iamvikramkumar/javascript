@@ -28,8 +28,9 @@ function addNum(num1, num2){
 }
 let result1 = addNum(val1, val2)
 let result2 = addNum(18,2)
-<pre>
+</pre>
 
+    
 `1st Step` ==> Global Execution --> this
 
 `2nd Step` ==> Memory Phase
