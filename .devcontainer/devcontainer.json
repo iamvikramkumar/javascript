@@ -45,13 +45,13 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"ritwickdey.liveserver-vscode"
+				"ritwickdeyliveserver-vscode"
 
 
 			],
 			"settings": {
-				"editor.fontSize": 15,
-				"terminal.integrated.fontSize": 24,
+				"editor.fontSize": 20,
+				"terminal.integrated.fontSize": 25,
 				"editor.wordWrap": "on"
 			}
 
