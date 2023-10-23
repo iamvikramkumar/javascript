@@ -45,8 +45,8 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"ms-vscode.go",
-                "ms-vsliveshare.vsliveshare-pack"
+				"ritwickdey.liveserver-vscode"
+
 
 			],
 			"settings": {
