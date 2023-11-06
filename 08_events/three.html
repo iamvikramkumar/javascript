@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Javascript</h1>
+    <button id = "start">Start</button>
+    <button id = "stop">Stop</button>
+</body>
+<script>
+    // setInterval(function(){
+    //     console.log("Vikram", Date.now());
+    // }, 1000)
+
+    const sayDate = function(str){
+        console.log(str,
+        Date.now());
+    }
+
+    // const intervalId = setInterval(sayDate, 1000, "Radhe Radhe")
+
+     // clearInterval(intervalId)
+
+    // document.querySelector('#stop').addEventListener('click', function(){
+    //     clearInterval(intervalId)
+    //     console.log("STOPPED");
+
+    // })
+
+    // const buttons = document.querySelector("#buttons");
+    
+    // let interval;
+    // buttons.addEventListener("click", function (e) {
+    //     if (e.target.id === "start") {
+    //         interval = setInterval(function () {
+    //             console.log("start Interval");
+    //         }, 2000);
+    //     }
+    //     if(e.target.id === 'stop'){
+    //         clearInterval(interval);
+    //     }
+    // });
+    
+   // Tried another method:
+// Declaring interval function
+        const start = function () {
+            console.log("Radhe Radhe ❤️",Date.now());
+        }
+
+        // Starting the interval
+        document.getElementById('start').addEventListener('click',function () {
+            const interval = setInterval(start,1000)
+            console.log("START")
+            // Stopping the interval
+            document.getElementById('stop').addEventListener('click',function () {
+                clearInterval(interval);
+                console.log("STOP");
+            })
+        })
+
+</script>
+</html>
